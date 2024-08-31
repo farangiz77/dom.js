@@ -1,0 +1,37 @@
+.box, .list{
+border: 1px solid black;
+text-align: center;
+width: max-content;
+padding: 30px;
+margin: 0 auto;
+
+
+img{
+  width: 300px;
+}
+}
+
+.btn{
+ gap: 20px;
+ display: flex;
+ justify-content: center;
+}
+
+.none{
+  display: none;
+}
+
+
+.list{
+  p{
+    border: 1px solid black;
+    padding: 5px;
+    cursor: pointer;
+
+    transition: all .3s;
+
+    &:hover{
+      background-color: pink;
+    }
+  }
+}
